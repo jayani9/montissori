@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./components/home/About";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -20,14 +21,17 @@ function App() {
           <Routes>
             {/* Landing Page (contains Hero, Features, and any other homepage sections) */}
             <Route path="/" element={<Home />} />
-            
+
             {/* Sub-pages */}
-            <Route path="/pedagogiikka" element={<About />} /> 
-            
+            <Route path="/pedagogiikka" element={<About />} />
+
             {/* Add more routes here as you build new pages */}
             {/* <Route path="/toiminta" element={<FeaturesPage />} /> */}
           </Routes>
         </main>
+        <div className="w-full">
+          <Footer />
+        </div>
       </div>
     </Router>
   );
