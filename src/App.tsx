@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./components/home/About";
+import Action from "./pages/Action";
 import { Footer } from "./components/Footer";
 
 
@@ -29,6 +30,7 @@ function App() {
 
             {/* Sub-pages */}
             <Route path="/pedagogiikka" element={<About />} />
+            <Route path="/action" element={<Action />} />
 
             {/* Add more routes here as you build new pages */}
             {/* <Route path="/toiminta" element={<FeaturesPage />} /> */}
