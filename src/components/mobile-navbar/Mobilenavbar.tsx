@@ -3,6 +3,7 @@ import { motion, AnimatePresence, type Variants } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
 import { HiMenuAlt3, HiX } from "react-icons/hi"; 
 import { FaInstagram, FaFacebookF, FaEnvelope } from "react-icons/fa"; 
+import { useLanguage } from "../../context/LanguageContext"; // 1. Import your hook
 import Logo from "./../../assets/logo_web.svg";
 
 const navItems = [
@@ -14,7 +15,7 @@ const navItems = [
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [lang, setLang] = useState("fi"); // Language state
+  const { lang, setLang } = useLanguage(); // 2. Use global state instead of local useState
   const location = useLocation();
 
   const menuVariants: Variants = {
@@ -57,7 +58,8 @@ export default function Navbar() {
       {/* 2. Attractive Hamburger with "Menu" label */}
       <div className="flex items-center gap-4">
         <span className="hidden sm:block text-[10px] uppercase tracking-widest text-gray-400 font-bold">
-          {isOpen ? "Sulje" : "Menu"}
+          {/* 3. Translate "Close" label */}
+          {isOpen ? (lang === "fi" ? "Sulje" : "Close") : "Menu"}
         </span>
         <button 
           onClick={() => setIsOpen(!isOpen)}
@@ -96,12 +98,12 @@ export default function Navbar() {
               exit="closed"
               className="absolute top-24 right-6 w-[calc(100%-3rem)] sm:w-[380px] bg-white/95 backdrop-blur-2xl z-[102] rounded-[2rem] shadow-[0_20px_50px_rgba(0,0,0,0.15)] border border-white/50 p-8 flex flex-col gap-6"
             >
-              {/* 3. Language Switcher */}
+              {/* 4. Language Switcher (Now using global setLang) */}
               <div className="flex justify-between items-center bg-gray-50 p-1 rounded-full w-fit">
-                {["fi", "en"].map((l) => (
+                {(["fi", "en"] as const).map((l) => (
                   <button
                     key={l}
-                    onClick={() => setLang(l)}
+                    onClick={() => setLang(l)} // This now changes the whole app
                     className={`px-4 py-1 text-xs font-bold rounded-full transition-all ${
                       lang === l ? "bg-[#4A90B9] text-white shadow-md" : "text-gray-400"
                     }`}
@@ -119,7 +121,7 @@ export default function Navbar() {
                     <motion.div 
                       key={item.path} 
                       variants={itemVariants}
-                      whileHover={{ x: 10 }} // Sliding hover effect
+                      whileHover={{ x: 10 }} 
                     >
                       <Link 
                         to={item.path} 
@@ -141,7 +143,7 @@ export default function Navbar() {
                 })}
               </div>
 
-              {/* 4. Social Footer with "Magnetic" feel */}
+              {/* Social Footer */}
               <motion.div variants={itemVariants} className="pt-6 border-t border-gray-100 mt-2">
                 <div className="flex gap-6 items-center">
                   {[FaInstagram, FaFacebookF, FaEnvelope].map((Icon, i) => (
