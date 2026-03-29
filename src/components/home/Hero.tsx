@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import Grass from "./Grass";
+import Grass from "./Grass"; // Make sure the Grass component is in the same folder
 import { useLanguage } from "../../context/LanguageContext";
 import translationsData from "../../data/translations.json";
 
-// Assets
+// Asset placeholders - replace with your actual paths
 import skybackground from "./../../assets/hero.jpg";
 import sun from "./../../assets/sun.png";
 import cloud1 from "./../../assets/cloud1.png";
@@ -16,7 +16,7 @@ const translations = translationsData as any;
 const Hero = () => {
   const { lang } = useLanguage();
   const t = translations[lang]?.hero;
-  
+
   const [windowWidth, setWindowWidth] = useState(typeof window !== "undefined" ? window.innerWidth : 1200);
 
   useEffect(() => {
@@ -34,7 +34,7 @@ const Hero = () => {
       <img
         src={skybackground}
         className="absolute inset-0 w-full h-full object-cover opacity-60"
-        alt="Background"
+        alt="Finnish Landscape"
       />
 
       {/* ☀️ Animated Sun */}
@@ -54,7 +54,7 @@ const Hero = () => {
         }}
       />
 
-      {/* ☁️ Clouds */}
+      {/* ☁️ Cloud Layer 1: Slow Left to Right */}
       {[0, 12].map((delay, i) => (
         <motion.img
           key={"cloud-lr-" + i}
@@ -62,15 +62,53 @@ const Hero = () => {
           className="absolute top-[10%] w-40 md:w-60 opacity-80 z-10"
           initial={{ x: -400 }}
           animate={{ x: windowWidth + 400 }}
-          transition={{ duration: 35, delay, repeat: Infinity, ease: "linear" }}
+          transition={{
+            duration: 35,
+            delay,
+            repeat: Infinity,
+            ease: "linear",
+          }}
         />
       ))}
 
-      {/* 🌿 Grass Layer */}
+      {/* ☁️ Cloud Layer 2: Faster Right to Left */}
+      {[5, 20].map((delay, i) => (
+        <motion.img
+          key={"cloud-rl-" + i}
+          src={cloud2}
+          className="absolute top-[25%] w-48 md:w-72 opacity-70 z-10"
+          initial={{ x: windowWidth + 400 }}
+          animate={{ x: -400 }}
+          transition={{
+            duration: 45,
+            delay,
+            repeat: Infinity,
+            ease: "linear",
+          }}
+        />
+      ))}
+
+      {/* ☁️ Cloud Layer 3: Floating Middle */}
+      <motion.img
+        src={cloud3}
+        className="absolute top-[40%] left-[20%] w-32 md:w-44 opacity-60 z-10"
+        animate={{
+          x: [0, 50, 0],
+          y: [0, -20, 0],
+        }}
+        transition={{
+          duration: 10,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
+      />
+
+      {/* 🌿 The Interactive Grass Layer (GSAP) */}
       <div className="absolute bottom-2 left-0 w-full z-30">
         <Grass />
       </div>
 
+      {/* 🌑 Subtle Gradient Overlay for Text Readability */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-900/30 to-transparent z-20"></div>
 
       {/* 🖋️ Main Content Area */}
@@ -99,6 +137,7 @@ const Hero = () => {
               <span className="relative z-10 flex items-center gap-2">
                 {t.button} <span className="text-2xl">→</span>
               </span>
+              {/* Organic "Blob" Hover Effect */}
               <div className="absolute inset-0 bg-orange-600 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
             </motion.button>
           </div>
