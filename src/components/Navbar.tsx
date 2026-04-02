@@ -7,7 +7,7 @@ import Logo from "./../assets/logo_web.svg";
 // Define the menu items
 const navItems = [
   { path: "/", fi: "Pedagogiikka", en: "Pedagogy" },
-  { path: "/varhaiskasvatus", fi: "Varhaiskasvatus", en: "Childhood Education" },
+  { path: "/education", fi: "Varhaiskasvatus", en: "Childhood Education" },
   { path: "/action", fi: "Toiminta", en: "Action" },
   { path: "/yhteystiedot", fi: "Yhteystiedot", en: "Contact Info" },
 ];

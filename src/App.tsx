@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./components/home/About";
+import Education from './components/education/ApplicationForm'
 import Action from "./components/action/Action";
 import Navbarmobile from './components/mobile-navbar/Mobilenavbar'
 import { Footer } from "./components/Footer";
@@ -38,6 +39,7 @@ function App() {
               <Route path="/" element={<Home />} />
 
               {/* Sub-pages */}
+              <Route path="/education" element={<Education />} />
               <Route path="/pedagogiikka" element={<About />} />
               <Route path="/action" element={<Action />} />
 
