@@ -43,6 +43,90 @@
                 }
             ]
         },
+        "education": {
+            "title": "Varhaiskasvatus",
+            "subtitle": "Oppimisen iloa, itsenäisyyttä ja kunnioitusta.",
+            "application": {
+                "title": "Päivähoitohakemus",
+                "steps": [
+                    "Lapsi",
+                    "Palveluntarve",
+                    "Perhe",
+                    "Lisätiedot",
+                    "Lähetä"
+                ],
+                "ready": "Valmis lähetettäväksi",
+                "review": "Tarkista tiedot ennen lähettämistä.",
+                "back": "Takaisin",
+                "submit": "Lähetä hakemus",
+                "sending": "Lähetetään...",
+                "success": "Hakemus lähetetty onnistuneesti!",
+                "error": "Lähetys epäonnistui:"
+            },
+            "additionalInfo": {
+                "h4": "4. Muuta huomioitavaa",
+                "fileDesc": "Mikäli perhe haluaa vedota taloudellisiin, koulutuksellisiin, sosiaalisiin tai muihin syihin päivähoitopaikkaa hakiessaan, hakemukseen on liitettävä selvitys.",
+                "h5": "5. Perheen koko",
+                "siblingLabel": "Lapsen sisarusten tai muiden perheessä asuvien alle 18-vuotiaiden lasten syntymävuodet",
+                "siblingCare": "Sisarukset hoidossa",
+                "h6": "6. Lisätiedot",
+                "textAreaLabel": "Sairaudet, allergiat tai muut seikat, jotka hakija haluaa tuoda esiin.",
+                "placeholder": "esim. 2018, 2021",
+                "next": "Tarkista ja valmis →",
+                "prev": "← Edellinen"
+            },
+            "careNeeds": {
+                "title": "2. Varhaiskasvatuksen tarve",
+                "need": "Tarve *",
+                "time": "Aika *",
+                "start": "Hoitoalkamispäivä *",
+                "current": "Nykyinen hoitopaikka",
+                "placeholderTime": "esim. 08:00 - 16:00",
+                "next": "Seuraava vaihe →",
+                "prev": "← Edellinen",
+                "options": {
+                    "full": "Kokoaikainen",
+                    "part": "Osa-aikainen",
+                    "shift": "Vuorohoito"
+                }
+            },
+            "childInfo": {
+                "title": "1. Lapsen tiedot",
+                "name": "Suku- ja etunimet *",
+                "ssn": "Henkilötunnus *",
+                "nativeLang": "Äidinkieli *",
+                "otherLang": "Äidinkieli muu kuin suomi",
+                "address": "Katuosoite *",
+                "security": "Turvakielto/tietojen luovutuskielto voimassa Väestötietolain (661/2009) 36 §:n mukaisesti.",
+                "postal": "Postinumero *",
+                "city": "Postitoimipaikka *",
+                "mun": "Kotikunta *",
+                "phone": "Kotipuhelin *",
+                "next": "Seuraava vaihe →",
+                "langOptions": {
+                    "fi": "Suomi",
+                    "sv": "Ruotsi",
+                    "other": "Muu"
+                }
+            },
+            "familyInfo": {
+                "title": "3. Perheen henkilötiedot",
+                "g1": "Huoltajan henkilötiedot (1)",
+                "g2": "Huoltajan henkilötiedot (2)",
+                "name": "Nimi *",
+                "ssn": "Henkilötunnus *",
+                "occ": "Ammatti *",
+                "wp": "Työpaikka *",
+                "wpPhone": "Työpuhelin *",
+                "email": "Sähköposti *",
+                "wHours": "Työtunnit arkisin klo *",
+                "weHours": "Työtunnit viikonloppuisin *",
+                "atWork": "Työssä",
+                "student": "Opiskelija",
+                "next": "Seuraava vaihe →",
+                "prev": "← Edellinen"
+            }
+        },
         "footer": {
             "title": "Yhteystiedot",
             "subtitle": "Montessoripäiväkoti Mio",
@@ -99,6 +183,90 @@
                     ]
                 }
             ]
+        },
+        "education": {
+            "title": "Childhood Education",
+            "subtitle": "The joy of learning, independence, and respect.",
+            "application": {
+                "title": "Daycare Application",
+                "steps": [
+                    "Child",
+                    "Care Need",
+                    "Family",
+                    "Additional",
+                    "Submit"
+                ],
+                "ready": "Ready to Submit",
+                "review": "Please review your details before sending.",
+                "back": "Back",
+                "submit": "Submit Application",
+                "sending": "Sending...",
+                "success": "Application sent successfully!",
+                "error": "Failed to send:"
+            },
+            "additionalInfo": {
+                "h4": "4. Other things to consider",
+                "fileDesc": "If a family wishes to rely on financial, educational, social or other reasons when applying for a daycare place, a statement must be attached to the application.",
+                "h5": "5. Family size",
+                "siblingLabel": "Birth years of the child's siblings or other children under the age of 18 in the family",
+                "siblingCare": "Sibling in care",
+                "h6": "6. Additional information",
+                "textAreaLabel": "Illnesses, allergies or other considerations that the applicant wishes to make.",
+                "placeholder": "e.g. 2018, 2021",
+                "next": "Review & Finish →",
+                "prev": "← Previous"
+            },
+            "careNeeds": {
+                "title": "2. The need for early childhood education",
+                "need": "Need *",
+                "time": "Time *",
+                "start": "Care start date *",
+                "current": "Current care location",
+                "placeholderTime": "e.g. 08:00 - 16:00",
+                "next": "Next Step →",
+                "prev": "← Previous",
+                "options": {
+                    "full": "Full day",
+                    "part": "Part day",
+                    "shift": "Shift care"
+                }
+            },
+            "childInfo": {
+                "title": "1. Child's Information",
+                "name": "Last and First Names *",
+                "ssn": "Social Security Number *",
+                "nativeLang": "Native Language *",
+                "otherLang": "Native language other than Finnish",
+                "address": "Street Address *",
+                "security": "Security prohibition/non-disclosure marked as valid according to Section 36 (661/2009).",
+                "postal": "Postal Code *",
+                "city": "City / Post Office *",
+                "mun": "Municipality of Residence *",
+                "phone": "Home Phone *",
+                "next": "Next Step →",
+                "langOptions": {
+                    "fi": "Finnish",
+                    "sv": "Swedish",
+                    "other": "Other"
+                }
+            },
+            "familyInfo": {
+                "title": "3. Family personal information",
+                "g1": "Guardian's personal information (1)",
+                "g2": "Guardian's personal information (2)",
+                "name": "Name *",
+                "ssn": "Personal identification number *",
+                "occ": "Occupation *",
+                "wp": "Workplace *",
+                "wpPhone": "Work phone *",
+                "email": "Email address *",
+                "wHours": "Working hours (Weekdays) *",
+                "weHours": "Working hours (Weekends) *",
+                "atWork": "At work",
+                "student": "Student",
+                "next": "Next Step →",
+                "prev": "← Previous"
+            }
         },
         "footer": {
             "title": "Contact Details",
