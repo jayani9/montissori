@@ -9,7 +9,7 @@ const navItems = [
   { path: "/", fi: "Pedagogiikka", en: "Pedagogy" },
   { path: "/education", fi: "Varhaiskasvatus", en: "Childhood Education" },
   { path: "/action", fi: "Toiminta", en: "Action" },
-  { path: "/yhteystiedot", fi: "Yhteystiedot", en: "Contact Info" },
+  { path: "/contact", fi: "Yhteystiedot", en: "Contact Info" },
 ];
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex items-center justify-between px-8 py-4 relative bg-white/80 backdrop-blur-md sticky top-0 z-[100] shadow-sm">
-      
+
       {/* Logo - Linked to Home */}
       <Link to="/" className="z-[110] absolute">
         <img
@@ -30,7 +30,7 @@ const Navbar = () => {
 
       <div className="flex w-full">
         <div className="flex items-center justify-end gap-10 w-full">
-          
+
           {/* Navigation Menu */}
           <div className="flex gap-8">
             {navItems.map((item) => (
@@ -44,11 +44,10 @@ const Navbar = () => {
               <button
                 key={l}
                 onClick={() => setLang(l)}
-                className={`px-4 py-1 text-xs font-bold rounded-full transition-all duration-300 ${
-                  lang === l
-                    ? "bg-orange-500 text-white shadow-sm"
-                    : "text-gray-400 hover:text-gray-600"
-                }`}
+                className={`px-4 py-1 text-xs font-bold rounded-full transition-all duration-300 ${lang === l
+                  ? "bg-orange-500 text-white shadow-sm"
+                  : "text-gray-400 hover:text-gray-600"
+                  }`}
               >
                 {l.toUpperCase()}
               </button>
@@ -56,13 +55,13 @@ const Navbar = () => {
           </div>
 
           {/* Action Button - Translated */}
-          <Link to="/yhteystiedot">
+          <Link to="/association">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-[#4CAF50] hover:bg-[#43a047] text-white px-8 py-2.5 rounded-full font-bold shadow-md transition-colors"
             >
-              {lang === "fi" ? "Ota yhteyttä" : "Contact Us"}
+              {lang === "fi" ? "Yhdistys" : "Association"}
             </motion.button>
           </Link>
         </div>
@@ -84,8 +83,7 @@ const NavItem = ({ item, lang }: { item: typeof navItems[0]; lang: string }) => 
       <NavLink
         to={item.path}
         className={({ isActive }) =>
-          `text-lg font-semibold transition-colors ${
-            isActive ? "text-orange-500" : "text-gray-700 hover:text-orange-400"
+          `text-lg font-semibold transition-colors ${isActive ? "text-orange-500" : "text-gray-700 hover:text-orange-400"
           }`
         }
       >

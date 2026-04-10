@@ -1,7 +1,8 @@
 import Disclosure from "./Disclosure";
-import Actionbanner from "./Actionbanner";
 import { useLanguage } from "./../../context/LanguageContext";
 import translationsData from "./../../data/translations.json";
+import Banner from "../Banner";
+import heroImg from "./../../assets/action_images/banner.jpg";
 
 const translations = translationsData as any;
 
@@ -15,7 +16,12 @@ const Action = () => {
   return (
     <div className="min-h-screen pt-16 bg-gray-50">
       {/* 1. Banner */}
-      <Actionbanner />
+      {/* <Actionbanner /> */}
+      <Banner
+        title={t.title}
+        subtitle={t.subtitle}
+        image={heroImg}
+      />
 
       {/* 2. Styled Paragraph Section */}
       <div className="max-w-5xl mx-auto px-6 pt-12">

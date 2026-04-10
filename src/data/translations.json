@@ -142,6 +142,60 @@
                 "prev": "← Edellinen"
             }
         },
+        "contact": {
+            "title": "Yhteystiedot",
+            "subtitle": "Ota yhteyttä!",
+            "pedagogy": {
+                "text": "Montessoripedagogiikka on aatteellisesti sitoutumaton kasvatusmenetelmä, joka perustuu italialaisen pedagogin ja lääkärin Maria Montessorin (1870-1952) luomaan kasvatusajatteluun. Montessorimenetelmää käytetään kouluissa ja päiväkodeissa ympäri maailmaa."
+            },
+            "staff": {
+                "title": "Henkilökunta",
+                "members": [
+                    {
+                        "name": "Anu Salminen",
+                        "role": "Päiväkodin johtaja, varhaiskasvatuksen montessoriopettaja",
+                        "email": "anu.salminen@montessorikerava.fi",
+                        "extra": "Tavoitat Anun Kultaisista helmistä",
+                        "phone": "p. 050 304 7774"
+                    },
+                    {
+                        "name": "Sigrit Jõeleht",
+                        "role": "Varhaiskasvatuksen opettaja, apulaisjohtaja"
+                    },
+                    {
+                        "name": "Essi Haukkavaara",
+                        "role": "Varhaiskasvatuksen montessoriopettaja",
+                        "extra": "virkavapaalla 30.5.2026 asti"
+                    },
+                    {
+                        "name": "Heidi Kuusivuori",
+                        "role": "Varhaiskasvatuksen lastenhoitaja"
+                    }
+                ]
+            },
+            "form": {
+                "title": "Ota yhteyttä!",
+                "name": "Nimi *",
+                "email": "Sähköposti *",
+                "subject": "Aihe",
+                "message": "Viesti",
+                "required": "* Tähdellä merkityt kohdat ovat pakollisia.",
+                "submit": "LÄHETÄ LOMAKE",
+                "sending": "LÄHETETÄÄN...",
+                "success": "Viesti lähetetty!",
+                "error": "Virhe lähetyksessä."
+            }
+        },
+        "association": {
+            "title": "Yhdistys",
+            "subtitle": "Keravan Montessoripäiväkodin kannatusyhdistys",
+            "historyTitle": "Historia",
+            "historyText": "Keravan Montessoripäiväkodin kannatusyhdistys ry on perustettu vuonna 1984. Toimintansa päiväkoti aloitti syksyllä 1986 leikkikoulumuotoisena. Kokopäiväinen päiväkotitoiminta alkoi syksyllä 1999.",
+            "managementTitle": "Hallitus ja hallinto",
+            "managementText": "Yhdistyksen asioita hoitaa lasten vanhemmista koostuva hallitus, joka toimii yhteistyössä päiväkodin henkilöstön kanssa. Hallitukseen kuuluu puheenjohtajan lisäksi viisi jäsentä sekä kaksi varajäsentä. Hallitus ohjaa ja valvoo päiväkodin toimintaa ja suunnittelee yhteistä toimintaa lasten hyväksi.",
+            "chairmanLabel": "Hallituksen puheenjohtaja",
+            "chairmanName": "Veera Mokkila"
+        },
         "footer": {
             "title": "Yhteystiedot",
             "subtitle": "Montessoripäiväkoti Mio",
@@ -296,6 +350,60 @@
                 "next": "Next Step →",
                 "prev": "← Previous"
             }
+        },
+        "contact": {
+            "title": "Contact Information",
+            "subtitle": "Get in touch!",
+            "pedagogy": {
+                "text": "Montessori pedagogy is an ideologically independent educational method based on the educational thinking created by the Italian pedagogue and physician Maria Montessori (1870-1952). The Montessori method is used in schools and kindergartens around the world."
+            },
+            "staff": {
+                "title": "Staff",
+                "members": [
+                    {
+                        "name": "Anu Salminen",
+                        "role": "Daycare Director, Early Childhood Montessori Educator",
+                        "email": "anu.salminen@montessorikerava.fi",
+                        "extra": "You can reach Anu at Kultaiset helmet",
+                        "phone": "p. 050 304 7774"
+                    },
+                    {
+                        "name": "Sigrit Jõeleht",
+                        "role": "Early Childhood Educator, Assistant Director"
+                    },
+                    {
+                        "name": "Essi Haukkavaara",
+                        "role": "Early Childhood Montessori Educator",
+                        "extra": "on leave until May 30, 2026"
+                    },
+                    {
+                        "name": "Heidi Kuusivuori",
+                        "role": "Early Childhood Caregiver"
+                    }
+                ]
+            },
+            "form": {
+                "title": "Contact Us!",
+                "name": "Name *",
+                "email": "Email *",
+                "subject": "Subject",
+                "message": "Message",
+                "required": "* Fields marked with an asterisk are required.",
+                "submit": "SEND FORM",
+                "sending": "SENDING...",
+                "success": "Message sent!",
+                "error": "Error sending message."
+            }
+        },
+        "association": {
+            "title": "Association",
+            "subtitle": "Kerava Montessori Daycare Support Association",
+            "historyTitle": "History",
+            "historyText": "The Kerava Montessori Daycare Support Association was established in 1984. The daycare began its operations in the fall of 1986 as a kindergarten-style facility. Full-day daycare activities started in the fall of 1999.",
+            "managementTitle": "Board and Management",
+            "managementText": "The affairs of the association are managed by a board consisting of parents of the children attending the daycare, which collaborates with the daycare’s staff. The board includes a chairman, five members, and two alternate members. The board guides and supervises the daycare’s operations and plans activities for the benefit of the children.",
+            "chairmanLabel": "Chairman of the Board",
+            "chairmanName": "Veera Mokkila"
         },
         "footer": {
             "title": "Contact Details",

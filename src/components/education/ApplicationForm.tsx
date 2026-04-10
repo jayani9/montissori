@@ -8,7 +8,8 @@ import ChildInfoForm from "./ChildInfoForm";
 import CareNeedsForm from "./CareNeedsForm";
 import FamilyInfoForm from "./FamilyInfoForm";
 import AdditionalInfoForm from "./AdditionalInfoForm";
-import Educationbanner from "./Educationbanner";
+import Banner from "../Banner";
+import heroImg from "./../../assets/education_images/banner.jpg";
 
 const translations = translationsData as any;
 
@@ -16,9 +17,10 @@ export default function ApplicationForm() {
   const { lang, setLang } = useLanguage();
   const [step, setStep] = useState(1);
   const [isSending, setIsSending] = useState(false);
-  
+
   // Get translations for this component
   const t = translations[lang]?.education?.application;
+  const t_1 = translations[lang]?.education;
 
   const [formData, setFormData] = useState({
     childFullName: "",
@@ -104,9 +106,14 @@ export default function ApplicationForm() {
 
   return (
     <div className="min-h-screen pt-16 bg-gray-50">
-      <Educationbanner />
+      <Banner
+        title={t_1.title}
+        subtitle={t_1.subtitle}
+        image={heroImg}
+      />
+
       <div className="max-w-4xl mx-auto p-4 md:p-8 font-sans">
-        
+
         {/* Header & Language Switcher */}
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-xl font-bold text-slate-800">{t.title}</h1>

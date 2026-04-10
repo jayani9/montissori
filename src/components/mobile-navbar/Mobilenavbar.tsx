@@ -10,7 +10,7 @@ const navItems = [
   { path: "/", fi: "Pedagogiikka", en: "Pedagogy" },
   { path: "/education", fi: "Varhaiskasvatus", en: "Childhood Education" },
   { path: "/action", fi: "Toiminta", en: "Action" },
-  { path: "/yhteystiedot", fi: "Yhteystiedot", en: "Contact Info" },
+  { path: "/contact", fi: "Yhteystiedot", en: "Contact Info" },
 ];
 
 export default function Navbar() {
