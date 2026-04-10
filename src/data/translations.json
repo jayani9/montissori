@@ -20,6 +20,7 @@
         "action": {
             "title": "Toiminta",
             "subtitle": "Oppimisen iloa, itsenäisyyttä ja kunnioitusta.",
+            "peragraph": "Montessoripedagogiikka vastaa uuden varhaiskasvatussuunnitelman ja esiopetussuunnitelman pedagogisia tavoitteita. Päivärytmiimme kuuluu montessorityöskentelyä, ulkoilua, taide- ja musiikkikasvatusta sekä viikoittainen englanninkerho. Vuodenaikoja seuraamme erilaisten teemapäivien ja juhlien merkeissä viettämällä muun muassa joulujuhlia, pääsiäistä, vappukarkeloita, isien ja äitienpäiviä ja isovanhempien päivää. Huomioimme kansainvälisyyskasvatuksen hengessä myös eri kulttuurien juhlapäiviä.",
             "accordion1_title": "Päivärytmi",
             "accordion1_content": "Meidän päivärytmimme koostuu...",
             "items": [
@@ -28,17 +29,31 @@
                     "content": [
                         "Päiväkotimme on avoinna arkisin 7.00 - 17.00. Päivän aikana lapsille tarjotaan aamupala, lounas ja välipala. Aterioilla harjoittelemme itsenäistä ruoan ottamista sekä kauniita pöytätapoja.",
                         "Aamupäivisin lapset puuhaavat montessorivälineistön parissa. He voivat tutkia ja tehdä havaintoja ympäröivästä maailmasta omaan kehityskauteensa sopivalla tasolla.",
+                        "Päivittäin kokoonnumme ryhmissä yhteiseen piirituokioon. Tuokioissa käymme läpi ajankohtaisia asioita, keskustelemme, leikimme, loruilemme, laulamme ja luemme tarinoita. Piirituokioissa harjoittelemme myös vuorovaikutustilanteita ja lapsen rooli ryhmän jäsenenä vahvistuu.",
                         "Iltapäivä on leikkien, pelien ja rakentelun aikaa.",
                         "Ulkoilemme päiväkotimme turvallisella pihalla. Toisinaan suuntaamme retkille päiväkodin lähimaastoihin.",
                         "Kaksi päiväkotimummoamme käyvät säännöllisesti puuhaamassa ja leipomassa lasten kanssa.",
-                        "Haluamme tehdä lapsen päivän kulusta mahdollisimman levollisen. Välttämällä turhaa kiirettä luomme rauhallisen toimintaympäristön, jossa jokaisen on hyvä olla.",
-                        "Heinäkuun olemme suljettu. Lisäksi henkilökunnallamme on 2-4 suunnittelupäivää vuodessa."
+                        "Haluamme tehdä lapsen päivän kulusta mahdollisimman levollisen. Välttämällä turhaa kiirettä luomme rauhallisen toimintaympäristön, jossa jokaisen on hyvä olla. Meillä on kodikas tunnelma ja pienessä yhteisössämme kaikki tuntevat toisensa.",
+                        "Heinäkuun olemme suljettu. Lisäksi henkilökunnallamme on 2-4 suunnittelupäivää vuodessa, jolloin päiväkoti on osittain tai kokonaan suljettu."
                     ]
                 },
                 {
                     "title": "Taide- ja musiikkikasvatus",
                     "content": [
-                        "Tiedot taide- ja musiikkikasvatuksesta tulevat tänne."
+                        "Taidekasvatus on tärkeä osa toimintaamme ja henkilökunnallamme on monipuolista kuvataide- ja musiikkiosaamista. Jokainen lapsi saa säännöllisesti osallistua ohjattuihin kuvataidetuokioihin, joissa tutustutaan erilaisiin tekniikoihin ja materiaaleihin, kuten saveen ja luonnon materiaaleihin. Päivittäin lapsilla on mahdollisuus maalaustelineellä maalaamiseen tai vesivärimaalaukseen sekä erilaisilla piirustusvälineillä piirtämiseen. Lisäksi teemme perinteisiä malliaskarteluja lasten taitotasojen mukaan.",
+                        "Myös musiikki on osa arkeamme ja musisoimme säännöllisesti muskareissa hyödyntämällä monipuolisesti erilaisia soittimia. Muskareiden lisäksi laulamme ja soitamme päivittäin piireissä ja muussa arjessamme."
+                    ]
+                },
+                {
+                    "title": "Liikuntakasvatus",
+                    "content": [
+                        "Liikuntakasvatus toteutuu viikoittain ulko- ja sisäliikunnassa. Leikinomaisesti lapsille tulevat tutuiksi liikuntaseikkailut, satuliikunta sekä erilaiset pelit ja yhteisleikit. Käymme retkillä lähimaastossa ja talvella luistelemassa ja hiihtämässä. "
+                    ]
+                },
+                {
+                    "title": "Englanninkerho",
+                    "content": [
+                        "Viikoittain kokoontuvassa englanninkerhossa opitaan kieltä ohjatun leikin ja toiminnan kautta. Lapsia innostetaan ja rohkaistaan kielen omaksumiseen pelien, leikkien, laulujen ja askartelun avulla. Englanninkerhoon voivat osallistua kaikki halukkaat 3-7 -vuotiaat päiväkotilaiset. Kerhoa vetää Sirpa Marie Nieminen Learning Fun -kielikerhosta. Englanninkerhosta maksetaan erillinen kerhomaksu."
                     ]
                 }
             ]
@@ -161,25 +176,39 @@
         "action": {
             "title": "Our Activities",
             "subtitle": "The joy of learning, independence, and respect.",
+            "peragraph": "Montessori pedagogy aligns with the pedagogical objectives of the new early childhood education curriculum and pre-school curriculum. Our daily routine includes Montessori work, outdoor activities, art and music education, as well as a weekly English club. We celebrate different seasons and holidays by hosting events such as Christmas parties, Easter festivities, May Day celebrations, Father's Day, Mother's Day, and Grandparents'Day. In the spirit of international education, we also acknowledge various cultural holidays.",
             "accordion1_title": "Daily Rhythm",
             "accordion1_content": "Our daily rhythm consists of...",
             "items": [
                 {
                     "title": "Daily Schedule",
                     "content": [
-                        "Our daycare is open weekdays from 7:00 AM to 5:00 PM. We provide breakfast, lunch, and a snack.",
-                        "In the mornings, children work with Montessori materials, exploring the world at their own developmental pace.",
-                        "Afternoons are for play, games, and creative building.",
-                        "We spend time outdoors in our safe yard and occasionally go on local trips.",
-                        "Two 'daycare grandmas' visit regularly to bake and play with the children.",
-                        "We aim for a peaceful daily rhythm, avoiding unnecessary rush to create a calm environment.",
-                        "We are closed in July and have 2-4 staff planning days per year."
+                        "Our daycare is open on weekdays from 7:00 AM to 5:00 PM. Throughout the day, children are provided with breakfast, lunch, and a snack. During meals, we encourage independent eating and the practice of good table manners.",
+                        "In the mornings, children engage with Montessori materials. They can explore and make observations about the surrounding world at a level suitable for their developmental stage.",
+                        "Every day, we gather in groups for a shared circle time. During these sessions, we discuss current topics, engage in conversations, play, recite rhymes, sing, and read stories. Circle time also helps children practice social interactions, and their role as a group member becomes stronger.",
+                        "In the afternoon, there is time for play, games, and building activities.",
+                        "We spend time outdoors in our safe daycare yard and occasionally go on excursions to nearby areas.",
+                        "We aim to create a peaceful daily routine for the children. By avoiding unnecessary haste, we establish a calm environment where everyone can feel comfortable. Our atmosphere is cozy, and in our small community, everyone knows each other.",
+                        "Please note that we are closed in July. Additionally, our staff has 2-4 planning days per year when the daycare is partially or fully closed."
                     ]
                 },
                 {
                     "title": "Art and Music Education",
                     "content": [
-                        "Details about art and music education go here."
+                        "Art education is an important part of our activities, and our staff has diverse expertise in visual arts and music. Each child regularly participates in guided art sessions, where they explore various techniques and materials, such as clay and natural materials. Every day, children have the opportunity to paint on an easel or use watercolors, as well as draw with various drawing tools. Additionally, we create traditional crafts suitable for children's skill levels.",
+                        "Music is also part of our daily life, and we regularly engage in music activities, utilizing various instruments in music classes. In addition to music classes, we sing and play music in circles and during our daily routines."
+                    ]
+                },
+                {
+                    "title": "Physical Education",
+                    "content": [
+                        "Physical education takes place weekly in both outdoor and indoor settings. Through playful activities, children become familiar with physical adventures, imaginative movement, as well as various games and group activities. We go on field trips in the nearby areas and engage in ice skating and skiing during the winter."
+                    ]
+                },
+                {
+                    "title": "English Club",
+                    "content": [
+                        "In our weekly English club, language learning happens through guided play and activities. Children are encouraged and motivated to acquire the language through games, play, songs, and crafts. The English club is open to all interested 3-7-year-old daycare attendees. The club is led by Sirpa Marie Nieminen from the Learning Fun Language Club. Please note that there is a separate fee for the English club."
                     ]
                 }
             ]

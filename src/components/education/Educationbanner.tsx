@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useLanguage } from "./../../context/LanguageContext";
 import translationsData from "./../../data/translations.json";
-import heroImg from "./../../assets/action_images/banner.jpg";
+import heroImg from "./../../assets/education_images/banner.jpg";
 
 // Type assertion for TypeScript
 const translations = translationsData as any;
