@@ -12,7 +12,7 @@ const About = () => {
   const t = translations[lang].about;
 
   return (
-    <div className="flex flex-col overflow-x-hidden pt-24 md:pt-32">
+    <div className="flex flex-col overflow-x-hidden pt-6 md:pt-8">
       {/* SECTION 1 */}
       <section className="bg-white py-16 px-6 md:px-24">
         <div className="max-w-4xl mx-auto">

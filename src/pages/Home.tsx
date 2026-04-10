@@ -1,6 +1,7 @@
 import Hero from "../components/home/Hero";
 import Features from "../components/home/Features";
 import About from "../components/home/About";
+import ImageSlider from "../components/home/ImageSlider";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
 
       {/* 3. Slanted Content Sections (Pedagogy & About) */}
       <About />
+      <ImageSlider />
     </main>
   );
 };
