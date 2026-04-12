@@ -1,0 +1,37 @@
+/* Birds.css */
+.bird {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg');
+    /* This filter gives the birds a nice teal/soft color */
+    filter: invert(34%) sepia(55%) saturate(427%) hue-rotate(141deg) brightness(93%) contrast(91%);
+    background-size: auto 100%;
+    width: 88px;
+    height: 125px;
+    will-change: background-position;
+    animation-name: fly-cycle;
+    animation-timing-function: steps(10);
+    animation-iteration-count: infinite;
+}
+
+.bird-container {
+    position: absolute;
+    top: 20%;
+    left: -10%;
+    transform: scale(0);
+    will-change: transform;
+    animation-name: fly-right;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 15; /* Sits behind text but in front of clouds */
+}
+
+@keyframes fly-cycle {
+    100% { background-position: -900px 0; }
+}
+
+@keyframes fly-right {
+    0% { transform: scale(0.3) translateX(-10vw); }
+    20% { transform: translateY(2vh) translateX(30vw) scale(0.5); }
+    40% { transform: translateY(0vh) translateX(60vw) scale(0.6); }
+    60% { transform: translateY(4vh) translateX(90vw) scale(0.6); }
+    100% { transform: translateY(0vh) translateX(120vw) scale(0.6); }
+}

@@ -61,8 +61,7 @@
         "education": {
             "title": "Varhaiskasvatus",
             "subtitle": "Oppimisen iloa, itsenäisyyttä ja kunnioitusta.",
-            
-            "p1": "Päiväkodissamme on varhaiskasvatuspaikkoja 34:lle 1,5 – 6-vuotiaalle lapselle. Tarjoamme myös esiopetusta Keravan kaupungin esiopetussuunnitelman mukaisesti. Päiväkotiimme voi hakeutua Keravalta ja lähikunnista.",
+            "p1": "Päiväkodissamme on varhaiskasvatuspaikkoja 34:lle 1,5 - 6-vuotiaalle lapselle. Tarjoamme myös esiopetusta Keravan kaupungin esiopetussuunnitelman mukaisesti. Päiväkotiimme voi hakeutua Keravalta ja lähikunnista.",
             "p2": "Voitte tulla tutustumaan päiväkotiimme sopimalla asiasta päiväkodin johtajan Anu Salmisen kanssa (puh. 050 304 7774 ). Myös varhaiskasvatusmaksuista saatte tarkempaa tietoa päiväkodin johtajalta.",
             "appIntro": "Varhaiskasvatushakemuksen voitte jättää milloin tahansa, sillä varhaiskasvatuspaikkoja vapautuu myös pitkin vuotta. Varhaiskasvatushakemuksen voitte pyytää paperiversiona päiväkodistamme, ",
             "appLink": "tulostaa sen tästä",
@@ -165,21 +164,43 @@
                         "name": "Anu Salminen",
                         "role": "Päiväkodin johtaja, varhaiskasvatuksen montessoriopettaja",
                         "email": "anu.salminen@montessorikerava.fi",
-                        "extra": "Tavoitat Anun Kultaisista helmistä",
-                        "phone": "p. 050 304 7774"
+                        "phone": "050 304 7774",
+                        "extra": "Tavoitat Anun Kultaisista helmistä"
                     },
                     {
                         "name": "Sigrit Jõeleht",
-                        "role": "Varhaiskasvatuksen opettaja, apulaisjohtaja"
+                        "role": "Varhaiskasvatuksen opettaja, apulaisjohtaja",
+                        "extra": "Tavoitat Sigritin Värihelmistä"
                     },
                     {
                         "name": "Essi Haukkavaara",
                         "role": "Varhaiskasvatuksen montessoriopettaja",
-                        "extra": "virkavapaalla 30.5.2026 asti"
+                        "extra": "Essi on tällä hetkellä virkavapaalla 30.5.2026 asti."
+                    },
+                    {
+                        "name": "Satu Karjalainen",
+                        "role": "Varhaiskasvatuksen montessoriopettaja",
+                        "extra": "Tavoitat Sadun Kultaisista helmistä"
+                    },
+                    {
+                        "name": "Anu-Maarit Peltonen",
+                        "role": "Varhaiskasvatuksen lastenhoitaja",
+                        "extra": "Tavoitat Anu-Maaritit Värihelmistä"
                     },
                     {
                         "name": "Heidi Kuusivuori",
-                        "role": "Varhaiskasvatuksen lastenhoitaja"
+                        "role": "Varhaiskasvatuksen lastenhoitaja",
+                        "extra": "Tavoitat Heidin Värihelmistä"
+                    },
+                    {
+                        "name": "Hanna Karhu",
+                        "role": "Varhaiskasvatuksen lastenhoitaja",
+                        "extra": "Tavoitat Hannan Kultaisista helmistä"
+                    },
+                    {
+                        "name": "Päivi Ruotsalainen",
+                        "role": "Päiväkotiavustaja",
+                        "extra": "Tavoitat Päivin molemmista ryhmistä"
                     }
                 ]
             },
@@ -383,21 +404,43 @@
                         "name": "Anu Salminen",
                         "role": "Daycare Director, Early Childhood Montessori Educator",
                         "email": "anu.salminen@montessorikerava.fi",
-                        "extra": "You can reach Anu at Kultaiset helmet",
-                        "phone": "p. 050 304 7774"
+                        "phone": "050 304 7774",
+                        "extra": "You can reach Anu at Kultaiset helmet"
                     },
                     {
                         "name": "Sigrit Jõeleht",
-                        "role": "Early Childhood Educator, Assistant Director"
+                        "role": "Early Childhood Educator, Assistant Director",
+                        "extra": "You can reach Sigrit at Värihelmet"
                     },
                     {
                         "name": "Essi Haukkavaara",
                         "role": "Early Childhood Montessori Educator",
-                        "extra": "on leave until May 30, 2026"
+                        "extra": "Essi is currently on a leave of absence until May 30, 2026."
+                    },
+                    {
+                        "name": "Satu Karjalainen",
+                        "role": "Early Childhood Montessori Educator",
+                        "extra": "You can reach Satu at Kultaiset helmet"
+                    },
+                    {
+                        "name": "Anu-Maarit Peltonen",
+                        "role": "Early Childhood Caregiver",
+                        "extra": "You can reach Anu-Maarit at Värihelmet"
                     },
                     {
                         "name": "Heidi Kuusivuori",
-                        "role": "Early Childhood Caregiver"
+                        "role": "Early Childhood Caregiver",
+                        "extra": "You can reach Heidi at Värihelmet"
+                    },
+                    {
+                        "name": "Hanna Karhu",
+                        "role": "Early Childhood Caregiver",
+                        "extra": "You can reach Hanna at Kultaiset helmet"
+                    },
+                    {
+                        "name": "Päivi Ruotsalainen",
+                        "role": "Daycare Assistant",
+                        "extra": "You can reach Päivi in both groups"
                     }
                 ]
             },
@@ -420,7 +463,7 @@
             "historyTitle": "History",
             "historyText": "The Kerava Montessori Daycare Support Association was established in 1984. The daycare began its operations in the fall of 1986 as a kindergarten-style facility. Full-day daycare activities started in the fall of 1999.",
             "managementTitle": "Board and Management",
-            "managementText": "The affairs of the association are managed by a board consisting of parents of the children attending the daycare, which collaborates with the daycare’s staff. The board includes a chairman, five members, and two alternate members. The board guides and supervises the daycare’s operations and plans activities for the benefit of the children.",
+            "managementText": "The affairs of the association are managed by a board consisting of parents of the children attending the daycare, which collaborates with the daycare's staff. The board includes a chairman, five members, and two alternate members. The board guides and supervises the daycare’s operations and plans activities for the benefit of the children.",
             "chairmanLabel": "Chairman of the Board",
             "chairmanName": "Veera Mokkila"
         },
