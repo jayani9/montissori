@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import Grass from "./Grass"; // Make sure the Grass component is in the same folder
+import Grass from "./Grass"; 
 import { useLanguage } from "../../context/LanguageContext";
 import translationsData from "../../data/translations.json";
 import { useNavigate } from "react-router-dom";
+import "./Birds.css"; // Ensure you create this file with the CSS below
 
-// Asset placeholders - replace with your actual paths
+// Asset imports
 import skybackground from "./../../assets/hero.jpg";
 import sun from "./../../assets/sun.png";
 import cloud1 from "./../../assets/cloud1.png";
@@ -28,6 +29,14 @@ const Hero = () => {
   }, []);
 
   if (!t) return null;
+
+  // Bird configuration for the loop
+  const birds = [
+    { id: 1, duration: "15s", delay: "0s", wingSpeed: "1s", top: "10%" },
+    { id: 2, duration: "16s", delay: "1s", wingSpeed: "0.9s", top: "15%" },
+    { id: 3, duration: "14s", delay: "9.5s", wingSpeed: "1.25s", top: "8%" },
+    { id: 4, duration: "16s", delay: "10.25s", wingSpeed: "1.1s", top: "20%" },
+  ];
 
   return (
     <section className="relative h-[85vh] w-full flex items-center overflow-hidden bg-sky-200">
@@ -55,6 +64,24 @@ const Hero = () => {
           ease: "easeInOut",
         }}
       />
+
+      {/* 🐦 Flying Birds Layer */}
+      {birds.map((bird) => (
+        <div
+          key={bird.id}
+          className="bird-container"
+          style={{ 
+            animationDuration: bird.duration, 
+            animationDelay: bird.delay,
+            top: bird.top
+          }}
+        >
+          <div 
+            className="bird" 
+            style={{ animationDuration: bird.wingSpeed }}
+          ></div>
+        </div>
+      ))}
 
       {/* ☁️ Cloud Layer 1: Slow Left to Right */}
       {[0, 12].map((delay, i) => (
@@ -110,7 +137,7 @@ const Hero = () => {
         <Grass />
       </div>
 
-      {/* 🌑 Subtle Gradient Overlay for Text Readability */}
+      {/* 🌑 Subtle Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-900/30 to-transparent z-20"></div>
 
       {/* 🖋️ Main Content Area */}
@@ -134,14 +161,12 @@ const Hero = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => navigate("/education")} // 3. Add the click handler
+              onClick={() => navigate("/education")}
               className="relative group overflow-hidden bg-orange-500 text-white px-10 py-4 rounded-2xl text-xl font-bold shadow-2xl transition-all"
             >
               <span className="relative z-10 flex items-center gap-2">
                 {t.button} <span className="text-2xl">→</span>
               </span>
-
-              {/* Organic "Blob" Hover Effect */}
               <div className="absolute inset-0 bg-orange-600 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
             </motion.button>
           </div>
