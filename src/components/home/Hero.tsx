@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Grass from "./Grass"; // Make sure the Grass component is in the same folder
 import { useLanguage } from "../../context/LanguageContext";
 import translationsData from "../../data/translations.json";
+import { useNavigate } from "react-router-dom";
 
 // Asset placeholders - replace with your actual paths
 import skybackground from "./../../assets/hero.jpg";
@@ -14,6 +15,7 @@ import cloud3 from "./../../assets/cloud3.png";
 const translations = translationsData as any;
 
 const Hero = () => {
+  const navigate = useNavigate();
   const { lang } = useLanguage();
   const t = translations[lang]?.hero;
 
@@ -29,7 +31,7 @@ const Hero = () => {
 
   return (
     <section className="relative h-[85vh] w-full flex items-center overflow-hidden bg-sky-200">
-      
+
       {/* 🌄 Background Layer */}
       <img
         src={skybackground}
@@ -120,10 +122,10 @@ const Hero = () => {
           className="max-w-2xl"
         >
           <h1 className="text-5xl md:text-7xl font-bold leading-tight drop-shadow-lg text-white mb-6">
-            <span className="text-orange-400">{t.titlePart1}</span> <br /> 
+            <span className="text-orange-400">{t.titlePart1}</span> <br />
             <span className="italic font-light">{t.titlePart2}</span>
           </h1>
-          
+
           <p className="text-white text-lg md:text-xl mb-8 font-medium bg-black/10 backdrop-blur-sm p-4 rounded-lg inline-block">
             {t.subtitle}
           </p>
@@ -132,11 +134,13 @@ const Hero = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() => navigate("/education")} // 3. Add the click handler
               className="relative group overflow-hidden bg-orange-500 text-white px-10 py-4 rounded-2xl text-xl font-bold shadow-2xl transition-all"
             >
               <span className="relative z-10 flex items-center gap-2">
                 {t.button} <span className="text-2xl">→</span>
               </span>
+
               {/* Organic "Blob" Hover Effect */}
               <div className="absolute inset-0 bg-orange-600 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
             </motion.button>

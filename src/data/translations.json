@@ -61,6 +61,16 @@
         "education": {
             "title": "Varhaiskasvatus",
             "subtitle": "Oppimisen iloa, itsenäisyyttä ja kunnioitusta.",
+            
+            "p1": "Päiväkodissamme on varhaiskasvatuspaikkoja 34:lle 1,5 – 6-vuotiaalle lapselle. Tarjoamme myös esiopetusta Keravan kaupungin esiopetussuunnitelman mukaisesti. Päiväkotiimme voi hakeutua Keravalta ja lähikunnista.",
+            "p2": "Voitte tulla tutustumaan päiväkotiimme sopimalla asiasta päiväkodin johtajan Anu Salmisen kanssa (puh. 050 304 7774 ). Myös varhaiskasvatusmaksuista saatte tarkempaa tietoa päiväkodin johtajalta.",
+            "appIntro": "Varhaiskasvatushakemuksen voitte jättää milloin tahansa, sillä varhaiskasvatuspaikkoja vapautuu myös pitkin vuotta. Varhaiskasvatushakemuksen voitte pyytää paperiversiona päiväkodistamme, ",
+            "appLink": "tulostaa sen tästä",
+            "appOutro": " tai täyttää sen sähköisesti alla (sähköinen lomake ei tällä hetkellä toimi Safari-selaimessa, voit käyttää esimerkiksi Chrome-selainta sen täyttämiseen). Vahvistamme aina sähköisen hakemuksen saapumisen, eli jos et kuule meistä hakemuksen jättämisen jälkeen, niin olethan meihin yhteydessä puhelimitse tai sähköpostitse.",
+            "guidelineText": "Keravan kaupungin ohjeistus varhaiskasvatuslain mukaisesta muistutusmenettelystä löytyy ",
+            "guidelineLink": "täältä",
+            "supervisionText": "Päiväkodin omavalvontasuunnitelma löytyy ",
+            "supervisionLink": "täältä",
             "application": {
                 "title": "Päivähoitohakemus",
                 "steps": [
@@ -270,6 +280,15 @@
         "education": {
             "title": "Childhood Education",
             "subtitle": "The joy of learning, independence, and respect.",
+            "p1": "In our daycare, we have early childhood education places for 34 children aged 1.5 to 6 years. We also offer pre-school education in accordance with the Kerava city pre-school curriculum. You can apply to our daycare from Kerava and neighboring municipalities.",
+            "p2": "You are welcome to come and visit our daycare by arranging it with the daycare director, Anu Salminen (phone: 050 304 7774). You can also get more detailed information about early childhood education fees from the daycare director.",
+            "appIntro": "You can submit an early childhood education application at any time, as early childhood education places become available throughout the year. You can request a paper version of the application from our daycare, ",
+            "appLink": "print it from here",
+            "appOutro": ", or fill it out electronically below (please note that the electronic form currently does not work with the Safari browser; you can use a browser like Chrome to fill it out). We always confirm the receipt of electronic applications, so if you don't hear from us after submitting the application, please contact us by phone or email.",
+            "guidelineText": "You can find Kerava city's guidelines on the statutory reminder procedure for early childhood education law ",
+            "guidelineLink": "here",
+            "supervisionText": "The daycare's own supervision plan can be found ",
+            "supervisionLink": "here",
             "application": {
                 "title": "Daycare Application",
                 "steps": [

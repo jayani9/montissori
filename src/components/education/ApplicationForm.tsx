@@ -10,6 +10,7 @@ import FamilyInfoForm from "./FamilyInfoForm";
 import AdditionalInfoForm from "./AdditionalInfoForm";
 import Banner from "../Banner";
 import heroImg from "./../../assets/education_images/banner.jpg";
+import EducationContent from "./EducationContent";
 
 const translations = translationsData as any;
 
@@ -112,8 +113,10 @@ export default function ApplicationForm() {
         image={heroImg}
       />
 
-      <div className="max-w-4xl mx-auto p-4 md:p-8 font-sans">
+      
 
+      <div className="max-w-4xl mx-auto p-4 md:p-8 font-sans">
+<EducationContent />
         {/* Header & Language Switcher */}
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-xl font-bold text-slate-800">{t.title}</h1>
