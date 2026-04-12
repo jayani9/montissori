@@ -9,6 +9,9 @@ export default function EducationContent() {
 
     if (!t) return null;
 
+    // Construct the absolute URL for the Word Doc (required for Office Viewer)
+    const wordDocUrl = `${window.location.origin}/paivakotihakemus.doc`;
+
     return (
         <div className="max-w-5xl mx-auto px-6 py-12 space-y-8 text-slate-700 leading-relaxed text-base md:text-lg">
 
@@ -21,13 +24,11 @@ export default function EducationContent() {
                 {t.p2}
             </p>
 
-            {/* 2. First Link: MS Word Document (Daycare Application) */}
+            {/* 2. Word Document Link */}
             <p>
                 {t.appIntro}
                 <a
-                    href={`https://view.officeapps.live.com/op/view.aspx?src=${encodeURIComponent(
-                        window.location.origin + "/paivakotihakemus.doc"
-                    )}`}
+                    href={`https://view.officeapps.live.com/op/view.aspx?src=${encodeURIComponent(wordDocUrl)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-800 underline font-semibold transition-colors mx-1"
@@ -39,7 +40,8 @@ export default function EducationContent() {
 
             {/* Footer Resource Links */}
             <div className="space-y-4 pt-6 border-t border-gray-100">
-                {/* 3. Second Link: Reminder Procedure PDF */}
+                
+                {/* 3. Reminder Procedure PDF */}
                 <p>
                     {t.guidelineText}
                     <a
@@ -52,7 +54,7 @@ export default function EducationContent() {
                     </a>.
                 </p>
 
-                {/* 4. Third Link: Supervision Plan PDF */}
+                {/* 4. Supervision Plan PDF */}
                 <p>
                     {t.supervisionText}
                     <a
