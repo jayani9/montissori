@@ -6,7 +6,8 @@ import Logo from "./../assets/logo_web.svg";
 
 // Define the menu items
 const navItems = [
-  { path: "/", fi: "Pedagogiikka", en: "Pedagogy" },
+  /* { path: "/", fi: "Koti", en: "Home" }, */
+  { path: "/peda", fi: "Pedagogiikka", en: "Pedagogy" },
   { path: "/education", fi: "Varhaiskasvatus", en: "Childhood Education" },
   { path: "/action", fi: "Toiminta", en: "Action" },
   { path: "/contact", fi: "Yhteystiedot", en: "Contact Info" },
@@ -24,7 +25,7 @@ const Navbar = () => {
         <img
           src={Logo}
           alt="MIO Montessori Logo"
-          className="pt-4 h-24 md:h-36 w-auto transition-transform hover:scale-105"
+          className="mt-24 h-48 md:h-48 w-auto transition-transform hover:scale-105"
         />
       </Link>
 
@@ -45,7 +46,7 @@ const Navbar = () => {
                 key={l}
                 onClick={() => setLang(l)}
                 className={`px-4 py-1 text-xs font-bold rounded-full transition-all duration-300 ${lang === l
-                  ? "bg-orange-500 text-white shadow-sm"
+                  ? "bg-[#3381A9] text-white shadow-sm"
                   : "text-gray-400 hover:text-gray-600"
                   }`}
               >
@@ -83,7 +84,7 @@ const NavItem = ({ item, lang }: { item: typeof navItems[0]; lang: string }) => 
       <NavLink
         to={item.path}
         className={({ isActive }) =>
-          `text-lg font-semibold transition-colors ${isActive ? "text-orange-500" : "text-gray-700 hover:text-orange-400"
+          `text-lg font-semibold transition-colors ${isActive ? "text-[#3381A9]" : "text-gray-700 hover:text-[#3381A9]"
           }`
         }
       >

@@ -1,4 +1,4 @@
-import { HiPhone, HiMail, HiLocationMarker } from "react-icons/hi";
+import { HiPhone, HiLocationMarker } from "react-icons/hi";
 import { useLanguage } from "./../context/LanguageContext";
 import translationsData from "./../data/translations.json";
 
@@ -12,7 +12,7 @@ export const Footer = () => {
 
   return (
     <footer className="w-full">
-      <section className="relative bg-[#E67E22] text-white py-24 md:py-32 px-6 overflow-hidden">
+      <section className="relative bg-[#3381A9] text-white py-24 md:py-32 px-6 overflow-hidden">
         {/* 🌊 SVG Wave Top Border (KEPT EXACTLY THE SAME) */}
         <div className="absolute top-0 left-0 w-full overflow-hidden line-height-0 transform rotate-180">
           <svg
@@ -40,13 +40,13 @@ export const Footer = () => {
             </div>
 
             {/* Email */}
-            <div className="flex items-start gap-4">
+            {/* <div className="flex items-start gap-4">
               <HiMail className="text-3xl flex-shrink-0" />
               <p className="text-lg">
                 <strong>Sähköposti:</strong> <br />
                 {t.email}
               </p>
-            </div>
+            </div> */}
 
             {/* Hours */}
             <div className="flex items-start gap-4">

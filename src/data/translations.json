@@ -1,12 +1,23 @@
 {
     "fi": {
-        "hero": {
-            "titlePart1": "Pedagogiikka",
-            "titlePart2": "Pedagogy",
-            "subtitle": "Oppimisen iloa luonnollisessa ympäristössä.",
+        "home": {
+            "fiTitle": "Montessoripäiväkoti Keravalla",
+            "fiDescription": "Montessoripäiväkoti Mio tarjoaa laadukasta varhaiskasvatusta ja esiopetusta 1,5-6-vuotiaille keravalaisille ja lähikuntien lapsille. Montessoripedagogiikka on aatteellisesti sitoutumaton kasvatusmenetelmä, jossa lapsi kohdataan yksilönä ja hän saa oppia omassa tahdissaan rauhallisessa ympäristössä. Päiväkotia ylläpitää voittoa tavoittelematon Keravan Montessoripäiväkodin kannatusyhdistys ry ja kaikki toiminnan tuotot käytetään päiväkodin lasten hyväksi.",
+            "enTitle": "Montessori Daycare Mio in Kerava",
+            "enDescription": "Montessori Daycare Mio offers high-quality early childhood education and pre-school education for 1.5 to 6-year-old children in Kerava and neighboring municipalities. Montessori pedagogy is an ideologically neutral educational method where each child is treated as an individual, learning at their own pace in a peaceful environment. The daycare is run by the non-profit support association Kerava Montessori Daycare Association, and all proceeds from the operation are used for the benefit of the daycare's children.",
+            "testimonialTitle": "Vanhempien kommentit",
+            "title": "Oppimisen iloa ja lapsen omaa kasvua",
+            "subtitle": "Auta minua tekemään itse.",
+            "testimonials": [
+                "Mio on ihana ja lämminhenkinen päiväkoti, jossa jokainen lapsi saa olla oma itsensä. Lapsemme ovat saaneet laadukasta varhaiskasvatusta ja heidän tarpeensa on huomioitu - syliä kaipaava on saanut olla sylissä ja tiedonnälkäinen lapsemme on saanut oppia valtavasti uusia asioita. Lapsemme ovat jääneet aina mielellään päiväkotiin ja nyt jo koululainen muistelee edelleen päiväkotia lämmöllä."
+            ],
+            "titlePart2": "Montessoripäiväkoti",
+            "titlePart3": "Mio",
             "button": "Lue lisää"
         },
         "about": {
+            "title": "Pedagogiikka",
+            "subtitle": "Oppimisen iloa luonnollisessa ympäristössä.",
             "intro": "Montessoripedagogiikka on aatteellisesti sitoutumaton kasvatusmenetelmä, joka perustuu italialaisen pedagogin ja lääkärin Maria Montessorin (1870-1952) luomaan kasvatusajatteluun. Montessorimenetelmää käytetään kouluissa ja päiväkodeissa ympäri maailmaa.",
             "activeTitle": "Aktiivinen lapsi",
             "activeDesc": "Montessoripedagogiikassa lapsi nähdään tiedonjanoisena oppijana, joka tutkii aktiivisesti ympäristöään. Havainnoimalla lapsia kasvattaja saa tärkeää tietoa kunkin lapsen kehitystasosta ja siitä, millaista ohjausta ja oppimismateriaalia hän tarvitsee. Kasvattaja kunnioittaa lapsen pyrkimystä ohjata itse itseään ja valita opettelemiaan asioita ja taitoja.",
@@ -241,13 +252,24 @@
         }
     },
     "en": {
-        "hero": {
-            "titlePart1": "Pedagogy",
-            "titlePart2": "Learning through play",
-            "subtitle": "The joy of learning in a natural environment.",
+        "home": {
+            "fiTitle": "Montessoripäiväkoti Keravalla",
+            "fiDescription": "Montessoripäiväkoti Mio tarjoaa laadukasta varhaiskasvatusta ja esiopetusta 1,5-6-vuotiaille keravalaisille ja lähikuntien lapsille. Montessoripedagogiikka on aatteellisesti sitoutumaton kasvatusmenetelmä, jossa lapsi kohdataan yksilönä ja hän saa oppia omassa tahdissaan rauhallisessa ympäristössä. Päiväkotia ylläpitää voittoa tavoittelematon Keravan Montessoripäiväkodin kannatusyhdistys ry ja kaikki toiminnan tuotot käytetään päiväkodin lasten hyväksi.",
+            "enTitle": "Montessori Daycare Mio in Kerava",
+            "enDescription": "Montessori Daycare Mio offers high-quality early childhood education and pre-school education for 1.5 to 6-year-old children in Kerava and neighboring municipalities. Montessori pedagogy is an ideologically neutral educational method where each child is treated as an individual, learning at their own pace in a peaceful environment. The daycare is run by the non-profit support association Kerava Montessori Daycare Association, and all proceeds from the operation are used for the benefit of the daycare's children.",
+            "testimonialTitle": "Parents' Comments",
+            "title": "The Joy of Learning and Growing",
+            "subtitle": "Help me to do on my own.",
+            "testimonials": [
+                "Mio is a wonderful and warm daycare where every child can be themselves. Our children have received high-quality early childhood education and their needs have been taken into account. Our children have always been happy to stay at daycare and now, as a schoolchild, still remembers the daycare with warmth."
+            ],
+            "titlePart2": "Montessori daycare",
+            "titlePart3": "Mio",
             "button": "Read more"
         },
         "about": {
+            "title": "Pedagogy",
+            "subtitle": "The joy of learning in a natural environment.",
             "intro": "Montessori pedagogy is an ideologically neutral educational method based on the educational philosophy created by the Italian educator and physician Maria Montessori (1870-1952). The Montessori method is used in schools and daycare centers around the world.",
             "activeTitle": "The Active Child",
             "activeDesc": "In Montessori pedagogy, a child is seen as a curious learner who actively explores their environment. By observing children, educators gain valuable insights into each child's developmental stage and their needs for guidance and learning materials. Educators respect the child's desire to guide themselves and choose what they want to learn and master.",

@@ -1,7 +1,7 @@
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
-import { useLanguage } from "./../../context/LanguageContext";
-import translationsData from "./../../data/translations.json";
+import { useLanguage } from "../../context/LanguageContext";
+import translationsData from "../../data/translations.json";
 
 // 1. Dynamic Glob Import: Automatically finds all images in the folder
 const imageModules = import.meta.glob("./../../assets/slider_images/*.{png,jpg,jpeg,svg}", { 
