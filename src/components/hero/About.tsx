@@ -1,9 +1,9 @@
 import { useLanguage } from "../../context/LanguageContext";
 import translations from "../../data/translations.json"; // Import the JSON
-import img1 from "./../../assets/about_images/img1.png";
-import img2 from "./../../assets/about_images/img2.png";
-import img3 from "./../../assets/about_images/img3.png";
-import img4 from "./../../assets/about_images/img4.png";
+import img1 from "./../../assets/about_images/img1.jpg";
+import img2 from "./../../assets/about_images/img2.jpg";
+import img3 from "./../../assets/about_images/img3.jpg";
+import img4 from "./../../assets/about_images/img4.jpg";
 
 const About = () => {
   const { lang } = useLanguage();
