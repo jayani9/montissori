@@ -41,7 +41,7 @@ export default function StaffGrid() {
             <div className="mt-auto space-y-2 text-sm text-slate-600">
               {member.email && (
                 <div className="flex items-center gap-2">
-                  <Mail size={14} className="text-orange-500 shrink-0" />
+                  <Mail size={14} className="text-[#3381A9] shrink-0" />
                   <a 
                     href={`mailto:${member.email}`} 
                     className="hover:text-orange-600 truncate transition-colors"
@@ -53,7 +53,7 @@ export default function StaffGrid() {
               
               {member.phone && (
                 <div className="flex items-center gap-2">
-                  <Phone size={14} className="text-orange-500 shrink-0" />
+                  <Phone size={14} className="text-[#3381A9] shrink-0" />
                   <span className="font-medium">{member.phone}</span>
                 </div>
               )}

@@ -7,7 +7,7 @@ import { useLanguage } from "../../context/LanguageContext"; // 1. Import your h
 import Logo from "./../../assets/logo_web.svg";
 
 const navItems = [
-  { path: "/", fi: "Pedagogiikka", en: "Pedagogy" },
+  { path: "/peda", fi: "Pedagogiikka", en: "Pedagogy" },
   { path: "/education", fi: "Varhaiskasvatus", en: "Childhood Education" },
   { path: "/action", fi: "Toiminta", en: "Action" },
   { path: "/contact", fi: "Yhteystiedot", en: "Contact Info" },
@@ -51,7 +51,7 @@ export default function Navbar() {
           whileTap={{ scale: 0.95 }}
           src={Logo}
           alt="MIO Montessori Logo"
-          className="h-14 md:h-20 w-auto object-contain"
+          className="h-30 md:h-20 w-auto object-contain"
         />
       </Link>
 

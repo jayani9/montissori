@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // Components
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import About from "./components/home/About";
+import Main from "./components/home/HomeSection";
+import About from "./components/hero/About";
 import Education from './components/education/ApplicationForm'
 import Action from "./components/action/Action";
 import Contact from "./components/contact/Contact";
@@ -39,9 +40,10 @@ function App() {
           <main>
             <Routes>
               {/* Landing Page (contains Hero, Features, and any other homepage sections) */}
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={<Main />} />
 
               {/* Sub-pages */}
+              <Route path="/peda" element={<Home />} />
               <Route path="/email" element={<Email />} />
               <Route path="/education" element={<Education />} />
               <Route path="/pedagogiikka" element={<About />} />
